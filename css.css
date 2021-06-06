@@ -1,0 +1,36 @@
+*{box-sizing:border-box}
+body{padding:0;
+    margin:0}
+h1 {text-align: center;
+   padding:20px}
+
+.box {background-color: #FFE5B4;
+      border:5px solid black;
+      margin:5px;
+      overflow: auto;
+  }
+               
+.name {
+        position: relative;
+        float:right;
+        padding:5px;
+        border-left:1px solid black;
+        border-bottom:1px solid black;
+        width:30%;
+        text-align:center
+       }
+#name1{background-color: #ff0000 }
+#name2{background-color: #00ff00}
+#name3{background-color: #0000ff}
+p{padding:10px;padding-top:20px}
+@media (min-width:992px){.col-md-4
+                         {float:left}
+                         .col-md-4{width:32%}
+                         #box1{margin-left:12px}}
+         
+@media (min-width:768px) and (max-width:991px){.col-sm-6
+                                               {float:left;}
+                                               .col-sm-6{width:48.6%}
+                                               #box3{clear:left;margin-right:10px}}
+                                                
+@media (max-width:767px){ .box{margin:10px}}
